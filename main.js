@@ -74,10 +74,9 @@ li.classList.add(index % 2 === 0 ? 'even' : 'odd');
 li.style.color = index % 2 === 0 ? 'green' : 'purple';
 });
 
+const p2 = document.createElement('p');
+p2.textContent = 'Finish according to';
+document.body.appendChild(p2);
 
-
-
-
-
-
-
+const code = document.createElement('code');
+code.textContent
